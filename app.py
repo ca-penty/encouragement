@@ -1,4 +1,4 @@
-print("Encouragement bot :)")
+print("encouragement bot :)")
 print()
 
 name = input("What is your name?")
@@ -16,7 +16,7 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("it's okay to feel sad sometimes. it will get better!!")
+      encouragement_list.append("it's okay to feel sad sometimes. it will get better")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
