@@ -16,15 +16,15 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("it's okay to feel sad sometimes. it will get better!")
+      encouragement_list.append("it's okay to feel sad sometimes. it will get better")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("glad that you are happy. continue smiling! :)")
+      encouragement_list.append("glad that you are happy. continue smiling :)")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("it has been a long day, get some rest!")
+      encouragement_list.append("it has been a long day, get some rest")
       counter += 1
     if each_word == "stressed":
       feelings_list.append("stressed")
@@ -58,3 +58,4 @@ while True:
   print(output)
   print()
 
+hi pls delete this
