@@ -34,9 +34,13 @@ while True:
       feelings_list.append("depressed")
       encouragement_list.append("talk to a friend,I'm sure their more than willing to help you!")
       counter += 1
+    if each_word == "incredible":
+      feelings_list.append("incredible")
+      encouragement_list.append("it's... AWESOME, you should feel like that everyday!!")
+      counter += 1
       
     if counter == 0:
-          output = "Sorry I don't really understand. Please use different words?"
+          output = "Sorry I don't really understand. Please use different words? Use words like sad, happy, tired, stressed and depressed"
     elif counter == 1:
           output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that "+ encouragement_list[0] + "! Hope you feel better :)"  
    
