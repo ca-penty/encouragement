@@ -38,6 +38,10 @@ while True:
       feelings_list.append("incredible")
       encouragement_list.append("it's... AWESOME, you should feel like that everyday!!")
       counter += 1
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("it's... okay, just relax! breathe in and breathe out!")
+      counter += 1
       
     if counter == 0:
           output = "Sorry I don't really understand. Please use different words? Use words like sad, happy, tired, stressed and depressed"
